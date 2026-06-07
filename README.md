@@ -13,10 +13,9 @@ A bidirectional USB-C Power Delivery (PD) power bank built around a software-def
 <!-- ───────────────────────────────────────────────────────────── -->
 
 <p align="center">
-  <img src="<img width="791" height="514" alt="Bildschirmfoto 2026-06-07 um 20 20 50" src="https://github.com/user-attachments/assets/813476f6-0370-4ced-84c9-323b823582fd" />
-" alt="Smart IoT Power Bank PCB" width="640">
+  <img src="https://github.com/user-attachments/assets/813476f6-0370-4ced-84c9-323b823582fd" alt="Smart IoT Power Bank PCB" width="640">
   <br>
-  <em>📷 Placeholder — add a photo/render of the power bank here.</em>
+  <em>Smart IoT Power Bank</em>
 </p>
 
 ---
