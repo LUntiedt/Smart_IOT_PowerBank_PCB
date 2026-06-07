@@ -13,7 +13,8 @@ A bidirectional USB-C Power Delivery (PD) power bank built around a software-def
 <!-- ───────────────────────────────────────────────────────────── -->
 
 <p align="center">
-  <img src="docs/img/powerbank.png" alt="Smart IoT Power Bank PCB" width="640">
+  <img src="<img width="791" height="514" alt="Bildschirmfoto 2026-06-07 um 20 20 50" src="https://github.com/user-attachments/assets/813476f6-0370-4ced-84c9-323b823582fd" />
+" alt="Smart IoT Power Bank PCB" width="640">
   <br>
   <em>📷 Placeholder — add a photo/render of the power bank here.</em>
 </p>
@@ -150,23 +151,12 @@ Both pairs are protected by the low-capacitance `TPD4E05U06` ESD arrays so the a
 
 ---
 
-## 6. Repository Structure
 
-```
-.
-├── docs/
-│   └── img/                 # photos / renders (add powerbank.png here)
-├── *.kicad_pro              # KiCad project
-├── *.kicad_sch              # schematic
-├── *.kicad_pcb              # board layout
-├── ESP_Smart_IoT_Power_Bank.csv   # bill of materials
-└── README.md
-```
 
-## 7. Status
+## 6. Status
 
 Hardware design in KiCad. See the firmware repository for the FreeRTOS PD stack.
 
-## 8. License
+## 7. License
 
 *Add a license (e.g. CERN-OHL-S for hardware) before publishing.*
