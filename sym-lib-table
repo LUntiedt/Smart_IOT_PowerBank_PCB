@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "00_PowerBank_SYM") (type "KiCad") (uri "${KIPRJMOD}/libs/00_PowerBank_SYM.kicad_sym") (options "") (descr ""))
+)
