@@ -2,7 +2,7 @@
 
 A bidirectional USB-C Power Delivery (PD) power bank built around a software-defined PD stack and an I²C buck-boost charger. This repository holds the **KiCad hardware design** (schematic, layout, BOM, fabrication outputs). The firmware lives in a separate repository.
 
-> **Firmware:** [`smart-iot-power-bank-firmware`](#) *(replace with link)*
+> **Firmware:** [`smart-iot-power-bank-firmware`](#) 
 
 ---
 
@@ -156,6 +156,4 @@ Both pairs are protected by the low-capacitance `TPD4E05U06` ESD arrays so the a
 
 Hardware design in KiCad. See the firmware repository for the FreeRTOS PD stack.
 
-## 7. License
 
-*Add a license (e.g. CERN-OHL-S for hardware) before publishing.*
