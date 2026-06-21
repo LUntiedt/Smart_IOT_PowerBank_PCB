@@ -116,7 +116,7 @@ On overheat (NTC > 60 °C) the ESP32 throttles PD power via software re-negotiat
 
 | Layer | Role |
 | :--- | :--- |
-| **Top** | Signal |
+| **Top** | Power / Signal |
 | **Inner 1** | GND |
 | **Inner 2** | GND |
 | **Bottom** | Power / Signal |
