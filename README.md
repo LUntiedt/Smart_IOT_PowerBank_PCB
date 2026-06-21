@@ -44,9 +44,9 @@ The board implements a professional power-management architecture comparable to 
 
 | Designator | Part | Function | System Role |
 | :--- | :--- | :--- | :--- |
-| **U3** | `BQ25792RQMR` (TI) | I²C buck-boost charger | Handles charging (buck) and discharging (OTG/boost) in hardware. Single inductor L2 (10 µH). |
+| **U3** | `BQ25792RQMR` (TI) | I²C buck-boost charger | Handles charging (buck) and discharging (OTG/boost) in hardware. Single inductor L1 (2.2 µH). |
 | **U1** | `FUSB302B11MPX` (onsemi) | USB Type-C PD PHY | Monitors the CC pins and translates PD signalling into I²C messages for the MCU. |
-| **U6** | `TPS54202HDDCR` (TI) | 2 A step-down | Generates a clean **3.3 V** logic rail from the fluctuating system voltage. Inductor L1 (2.2 µH). |
+| **U6** | `TPS54202HDDCR` (TI) | 2 A step-down | Generates a clean **3.3 V** logic rail from the fluctuating system voltage. Inductor L2 (10 µH). |
 | **Q1, Q2** | `CSD17581Q3A` (TI) | Dual N-channel MOSFETs | Back-to-back FETs for **reverse-polarity protection** / VBUS load isolation; block reverse current from the USB port into the system. |
 | **J2** | Würth WR-MPC4 `64900311122` | Battery connector | Connects the external **4S1P 18650 pack** (14.8 V, ~45 Wh, with internal BMS). |
 
