@@ -136,7 +136,7 @@ Both pairs are protected by the low-capacitance `TPD4E05U06` ESD arrays so the a
 
 * **Ground partitioning** — clean ground concept separating the power stage (BQ25792) from the logic (ESP32 / TPS54202).
 * **Copper polygons** — power paths (V_BUS, V_BAT, V_SYS) routed as filled polygons.
-* **Thermal management** — implement high power rails on both side of the board to increase thermal capacity and placing a generous amount of vias to distribute current evenly
+* **Thermal management** — implemented high power rails on both sides of the board to increase thermal capacity and placing a generous amount of vias to distribute current evenly
 
 ---
 
